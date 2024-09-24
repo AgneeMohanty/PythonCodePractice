@@ -3,7 +3,7 @@
 #The catch here is that the numbers are not gonna be in binary format.
 #But we have a formula to find number of 1s in the binary form of any integer
 #If we keep modulus  the number by 2,we get the remainder digit as 0 or 1 at each step.Then to remove the last digit we perform an integer division on the number 
-#For example 3 has 2 1s,->3/2=
+#For example 3 has 2 1s,->3/2=1 and 1/2 will be 0 so,till 0 2 divisions took place ,so it has 2 ones
 def countingbits(n):
     lst=[0]*(n+1)
     for i in range(0,n+1):
